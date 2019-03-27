@@ -58,6 +58,12 @@ p {
   color: #892a30;
 }
 
+.hptxt-color{
+  font-style: normal;
+  font-weight: 500;
+  color: #892a30;
+}
+
 .section-heading p {
   display: inline-block;
   font-size: 15px;
