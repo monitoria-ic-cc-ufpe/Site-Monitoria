@@ -66,7 +66,7 @@ p {
 
 .section-heading p {
   display: inline-block;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 26px;
   color: #343434;
   position: absolute;
@@ -632,7 +632,7 @@ header {
 #material .tabs li {
   display: inline-block;
   text-align: center;
-  width: 25%;
+  width: 33.3333%;
   float: left;
   margin: 0;
   padding: 0;
@@ -686,6 +686,7 @@ header {
   display: inline-block;
   text-align: left;
   margin-bottom: 10px;
+  min-width: 100%;
   padding-bottom: 20px;
   border-bottom: 1px solid #ddd;
 }
@@ -699,7 +700,7 @@ header {
 #material .tabgroup ul li img {
   float: left;
   margin-right: 30px;
-  max-width: 100%;
+  max-width: 306px;
   overflow: hidden;
 }
 #material .tabgroup ul li .text-content {
