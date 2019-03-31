@@ -88,6 +88,28 @@ p {
   transition: all 0.3s;
 }
 
+.table-style th{
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding-top: 3px;
+}
+
+.table-style td{
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid rgb(114, 114, 114);
+  padding-top: 3px;
+  padding-left: 3px;
+  width: 90%;
+}
+
+.table-style tr td:nth-child(2) { /*Para alinhar as datas apenas.*/
+  padding-left: 1px;
+  text-align: center;
+}
+
+
 .white-button a:hover {
   background-color: #892a30;
   color: #fff;
