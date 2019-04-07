@@ -135,6 +135,21 @@ p {
   color: #892a30;
 }
 
+.unavailable-button a {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  background-color: #bbbbbb;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding: 0px 25px;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -370,7 +385,7 @@ header {
 
 /* tentar alinhar texto "IF668" em relação ao elemento pai (Intro. a. Comp.)*/
 .Modern-Slider .codigo-disciplina{
-  text-align: left;
+  text-align: center;
   position: static;
   z-index: 10;
   top: 50%;
@@ -380,6 +395,8 @@ header {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   display: inline-block;
+  margin: 0px auto;
+  margin-top: 3%;
 }
 
 .Modern-Slider .info h1 {
